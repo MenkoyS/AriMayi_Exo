@@ -1,0 +1,40 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# === Environnement virtuel ===
+env/
+ENV/
+.venv/
+.venv.bak/
+
+# === Django ===
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+*.sqlite3
+
+# === Migrations compilées ===
+*/migrations/__pycache__/
+*/__pycache__/
+
+# === VSCode / IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Env vars ===
+.env
+env.*
